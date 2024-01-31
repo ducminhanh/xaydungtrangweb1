@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+}
+ol {
+    list-style-type: none;
+}
+.divcha {
+    width: 150px;
+    width: 150px;
+    background-color: pink;
+    position: relative;
+    left: 0cap;
+}
+.div{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}

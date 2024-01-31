@@ -1,0 +1,34 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.menu-ngang {
+    width: 100%;
+    height: 25px;
+    background-color: blue;
+}
+.menu-ngang > ul {
+    display: flex;
+    line-height: 25px;
+}
+.menu-ngang > ul > li {
+    float: left;
+    list-style-type: none;
+    margin: auto;
+}
+.menu-ngang > ul > li > a{
+        text-decoration: none;
+    }
+.menu-ngang .menu-con {
+    background: blue;
+    padding: 0px 100px;
+}
+.menu-ngang .menu-con li {
+    list-style-type: none;
+}
+.menu-ngang .menu-con li a {
+    text-decoration: none;
+}
+.menu-ngang > li:hover .menu-con {
+    display: block;
+}
